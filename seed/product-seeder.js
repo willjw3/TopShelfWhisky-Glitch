@@ -1,7 +1,7 @@
 var Product = require('../models/product');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/whiskystore', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/whiskyshop', { useNewUrlParser: true });
 
 var products = [
   new Product({
