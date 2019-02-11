@@ -1,6 +1,8 @@
 # Online Store Project
 
 A functioning fictitious online single malt whisky store called "Top Shelf Whisky", built with Node.js, Express, and MongoDB. Authentication by Passport.js and online payments made through [Stripe](https://stripe.com).<br>
+To make a fake purchase, create a user account with fake information, and use the fake credit card number `4242424242424242`.<br>
+
 You can check out the working application live by going [**here**](https://willjw3-topshelfwhisky-glitch.glitch.me/)<br>
 Or,<br>
 You can run this application on your local machine:
@@ -36,5 +38,3 @@ npm start
 ```
 10. Open a tab in your web browser and use `localhost:3000`.
 Everything should be working now.<br>
-
-To make a fake purchase, create a user account with fake information, and use the fake credit card number `4242424242424242`.
